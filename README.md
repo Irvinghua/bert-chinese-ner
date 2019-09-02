@@ -34,3 +34,6 @@ loss = 40.160034
 测试结果第一句：
 
 ![](test.png)
+
+
+python BERT_NER.py --data_dir=data/ --bert_config_file=E:\NLP\bert-model\chinese_L-12_H-768_A-12\bert_config.json --init_checkpoint=E:\NLP\bert-model\chinese_L-12_H-768_A-12\bert_model.ckpt --vocab_file=E:\NLP\bert-model\chinese_L-12_H-768_A-12\vocab.txt --output_dir=./output/result_dir/
